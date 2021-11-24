@@ -1,0 +1,51 @@
+@media (min-width: 500px) {
+    #introduction {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #introduction {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:1500px) {
+    #introduction {
+        font-size: 30px;
+    }
+}
+
+body {
+    width: 100%;
+    background-image: url(../image/bodybg.jpg);
+    background-size: 100%;
+}
+
+#main {
+    width: 90%;
+    background-color: white;
+    margin-top: 3%;
+    position: absolute;
+    left: 50%;
+    margin-left: -45%;
+}
+
+#introduction {
+    width: 38%;
+    background-color: skyblue;
+    margin: 20px;
+}
+
+#me {
+    width: 62%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#name {
+    font-family: DFKai-sb;
+    padding-left: 50px;
+}
