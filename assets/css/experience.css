@@ -1,0 +1,24 @@
+#experience {
+    width: 62%;
+    display: block;
+    float: right;
+    text-align: center;
+}
+
+#exp {
+    width: 100%;
+}
+
+.expt {
+    margin: 20px;
+}
+
+.exptd {
+    width: 48%;
+}
+
+.expphoto {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}

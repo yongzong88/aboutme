@@ -1,0 +1,26 @@
+#introduction {
+    width: 38%;
+    background-color: skyblue;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+#me {
+    width: 62%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#name {
+    font-family: DFKai-sb;
+}
+
+.icon {
+    width: 60px;
+    margin: 20px;
+}

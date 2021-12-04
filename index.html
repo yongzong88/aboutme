@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         @import url(assets/css/aboutme.css);
+        @import url(assets/css/introduction.css);
+        @import url(assets/css/skill.css);
+        @import url(assets/css/experience.css);
     </style>
+
     <title>王永宗</title>
 </head>
 
@@ -16,19 +20,82 @@
         <div id="introduction">
             <div><img src="assets/image/me.jpg" id="me"></div>
             <div id="name">
+                <br>
                 <p>王永宗</p>
-                <p>中原大學&nbsp;&nbsp;資訊管理學系</p>
+                <p>WANG YONG ZONG</p>
                 <p>『成功來自於相信自己會成功』</p>
             </div>
             <hr>
-            <div>
+            <div id="connection">
+                <a href="https://www.facebook.com/profile.php?id=100006740955028"><img src="assets/image/facebook.png" class="icon"></a>
+                <a href="https://www.instagram.com/yz_0808/"><img src="assets/image/instagram.png" class="icon"></a>
+                <a href="https://yongzong88.github.io"><img src="assets/image/github.png" class="icon"></a>
+                <a href="mailto:0808yongzong@gmail.com"><img src="assets/image/email.png" class="icon"></a>
 
             </div>
 
         </div>
+        <div id="skill">
+            <h1>skill</h1>
+            <section>
+                <div id="circleskillbars">
+                    <div class="bar bars" data-percent="75">
+                        <p class="t1">前端網頁設計</p>
+                        <canvas class="bar-circle html" width="120" height="120"></canvas>
+                    </div>
+                    <div class="bar bars" data-percent="78">
+                        <p class="t1">程式設計</p>
+                        <canvas class="bar-circle pizza" width="120" height="120"></canvas>
+                    </div>
+                    <div class="bar bars" data-percent="60">
+                        <p class="t1">會計事務</p>
+                        <canvas class="bar-circle report" width="120" height="120"></canvas>
+                    </div>
+                    <div class="bar bars" data-percent="85">
+                        <p class="t1">OFFICE</p>
+                        <canvas class="bar-circle office" width="120" height="120"></canvas>
+                    </div>
+                </div>
+            </section>
+            <hr>
+        </div>
 
-    </div>
+        <div id="experience">
+            <h1>experience</h1>
+            <table id="exp">
+                <tr>
+                    <td class="exptd">
+                        <div class="expt">
+                            <h3>台灣世界展望會 飢餓十二</h3>
+                        </div>
+                    </td>
+                    <td class="exptd">
+                        <div class="expt">
+                            <h3>STEAM科技創新冬令營助教</h3>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="exptd">
+                        <div class="expt">
+
+                            <img src="assets/image/飢餓12.PNG" class="expphoto">
+                        </div>
+                    </td>
+                    <td class="exptd">
+                        <div class="expt">
+
+                            <img src="assets/image/STEAM.JPG" class="expphoto">
+                            <img src="assets/image/STEAM2.JPG" class="expphoto">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
 
 </body>
+<script src="assets/js/skill.js" charset="utf-8">
+</script>
 
 </html>

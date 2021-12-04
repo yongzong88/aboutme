@@ -1,0 +1,63 @@
+.t1 {
+    font-size: 25px;
+}
+
+#skill {
+    width: 62%;
+    display: block;
+    float: right;
+    text-align: center;
+}
+
+.skillp {
+    text-align: center;
+    font-size: 15pt;
+}
+
+#skilltittle {
+    font-family: DFKai-sb;
+    padding: 10px;
+}
+
+.bar {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.bar-circle {
+    display: block;
+    margin: 0.7em auto;
+}
+
+.t1 {
+    font-style: italic;
+}
+
+.html {
+    background-image: url("../image/html.gif");
+    background-repeat: no-repeat;
+    background-size: 38%;
+    background-position: center;
+}
+
+.pizza {
+    background-image: url("../image/program.gif");
+    background-repeat: no-repeat;
+    background-size: 38%;
+    background-position: center;
+}
+
+.report {
+    background-image: url("../image/report.png");
+    background-repeat: no-repeat;
+    background-size: 38%;
+    background-position: center;
+}
+
+.office {
+    background-image: url("../image/office.gif");
+    background-repeat: no-repeat;
+    background-size: 38%;
+    background-position: center;
+}
