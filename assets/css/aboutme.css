@@ -23,13 +23,13 @@ hr {
 }
 
 #left {
-    width: 35.8%;
+    width: 37.8%;
     float: left;
     border-right: solid 1px black;
 }
 
 #right {
-    width: 64%;
+    width: 62%;
     float: right;
 }
 
