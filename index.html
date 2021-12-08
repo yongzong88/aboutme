@@ -8,8 +8,10 @@
     <style>
         @import url(assets/css/aboutme.css);
         @import url(assets/css/introduction.css);
+        @import url(assets/css/certificate.css);
         @import url(assets/css/skill.css);
         @import url(assets/css/experience.css);
+        @import url(assets/css/down.css);
     </style>
 
     <title>王永宗</title>
@@ -17,83 +19,153 @@
 
 <body>
     <div id="main">
-        <div id="introduction">
-            <div><img src="assets/image/me.jpg" id="me"></div>
-            <div id="name">
-                <br>
-                <p>王永宗</p>
-                <p>WANG YONG ZONG</p>
-                <p>『成功來自於相信自己會成功』</p>
-            </div>
-            <hr>
-            <div id="connection">
-                <a href="https://www.facebook.com/profile.php?id=100006740955028"><img src="assets/image/facebook.png" class="icon"></a>
-                <a href="https://www.instagram.com/yz_0808/"><img src="assets/image/instagram.png" class="icon"></a>
-                <a href="https://github.com/yongzong88"><img src="assets/image/github.png" class="icon"></a>
-                <a href="mailto:0808yongzong@gmail.com"><img src="assets/image/email.png" class="icon"></a>
 
-            </div>
-
-        </div>
-        <div id="skill">
-            <h1>Skill</h1>
-            <section>
-                <div id="circleskillbars">
-                    <div class="bar bars" data-percent="75">
-                        <p class="t1">前端網頁設計</p>
-                        <canvas class="bar-circle html" width="120" height="120"></canvas>
-                    </div>
-                    <div class="bar bars" data-percent="78">
-                        <p class="t1">程式設計</p>
-                        <canvas class="bar-circle pizza" width="120" height="120"></canvas>
-                    </div>
-                    <div class="bar bars" data-percent="60">
-                        <p class="t1">會計事務</p>
-                        <canvas class="bar-circle report" width="120" height="120"></canvas>
-                    </div>
-                    <div class="bar bars" data-percent="85">
-                        <p class="t1">OFFICE</p>
-                        <canvas class="bar-circle office" width="120" height="120"></canvas>
-                    </div>
+        <div id="left">
+            <div id="introduction">
+                <div class="pic"><img src="assets/image/me.jpg" id="me"></div>
+                <div id="name">
+                    <br>
+                    <p>王永宗</p>
+                    <p class="eng">WANG YONG ZONG</p>
+                    <p>『成功來自於相信自己會成功』</p>
                 </div>
-            </section>
-            <hr>
+                <hr>
+                <div id="connection">
+                    <a href="https://www.facebook.com/profile.php?id=100006740955028"><img src="assets/image/facebook.png" class="icon"></a>
+                    <a href="https://www.instagram.com/yz_0808/"><img src="assets/image/instagram.png" class="icon"></a>
+                    <a href="https://github.com/yongzong88"><img src="assets/image/github.png" class="icon"></a>
+                    <a href="mailto:0808yongzong@gmail.com"><img src="assets/image/email.png" class="icon"></a>
+
+                </div>
+
+            </div>
+            <div id="certificate">
+                <h1 class="eng">Certificate</h1>
+                <table class="cer">
+                    <tr>
+                        <td class="cert0">
+                            <img src="assets/image/comp.png" class="cerimg">
+                        </td>
+                        <td class="cert1">
+                            <p>電腦軟體應用</p>
+                        </td>
+                        <td class="cert2">
+                            <p>乙級</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cert0">
+                            <img src="assets/image/report.png" class="cerimg">
+                        </td>
+                        <td class="cert1">
+                            <p>會計事務-人工記帳</p>
+                        </td>
+                        <td class="cert2">
+                            <p>丙級</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cert0">
+                            <img src="assets/image/excel.png" class="cerimg">
+                        </td>
+                        <td class="cert1">
+                            <p class="eng">MOS-EXCEL</p>
+                        </td>
+                        <td class="cert2">
+                            <p class="eng">Expert</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cert0">
+                            <img src="assets/image/word.png" class="cerimg">
+                        </td>
+                        <td class="cert1">
+                            <p class="eng">TQC-WORD</p>
+                        </td>
+                        <td class="cert2">
+                            <p class="eng">進階級</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="right">
+            <div id="skill">
+                <h1 class="eng">Skill</h1>
+                <section>
+                    <div id="circleskillbars">
+                        <div class="bar bars" data-percent="75">
+                            <p class="t1">前端網頁設計</p>
+                            <canvas class="bar-circle html" width="120" height="120"></canvas>
+                        </div>
+                        <div class="bar bars" data-percent="78">
+                            <p class="t1">程式設計</p>
+                            <canvas class="bar-circle pizza" width="120" height="120"></canvas>
+                        </div>
+                        <div class="bar bars" data-percent="75">
+                            <p class="t1">會計事務</p>
+                            <canvas class="bar-circle report" width="120" height="120"></canvas>
+                        </div>
+                        <div class="bar bars" data-percent="85">
+                            <p class="t1 eng">OFFICE</p>
+                            <canvas class="bar-circle office" width="120" height="120"></canvas>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+            </div>
+
+            <div id="experience">
+                <h1 class="eng">Experience</h1>
+                <table id="exp">
+                    <tr>
+                        <td class="exptd">
+                            <div class="expt">
+                                <h3>台灣世界展望會 飢餓十二</h3>
+                            </div>
+                        </td>
+                        <td class="exptd">
+                            <div class="expt">
+                                <h3><span class="eng">STEAM</span>科技創新冬令營助教</h3>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="exptd">
+                            <div class="expt">
+
+                                <img src="assets/image/飢餓12.PNG" class="expphoto">
+                            </div>
+                        </td>
+                        <td class="exptd">
+                            <div class="expt">
+
+                                <img src="assets/image/STEAM.JPG" class="expphoto">
+                                <img src="assets/image/STEAM2.JPG" class="expphoto">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
 
-        <div id="experience">
-            <h1>Experience</h1>
-            <table id="exp">
-                <tr>
-                    <td class="exptd">
-                        <div class="expt">
-                            <h3>台灣世界展望會 飢餓十二</h3>
-                        </div>
-                    </td>
-                    <td class="exptd">
-                        <div class="expt">
-                            <h3>STEAM科技創新冬令營助教</h3>
+        <div id="down">
 
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="exptd">
-                        <div class="expt">
+            <div class="worktext">
+                <h1>作品</h1>
+                <a href="https://yongzong88.github.io" target="_blank"><img src="assets/image/作品.PNG" class="work"> </a>
+                <h2>期中專案-中原の食</h2>
+                <div class="workp">
 
-                            <img src="assets/image/飢餓12.PNG" class="expphoto">
-                        </div>
-                    </td>
-                    <td class="exptd">
-                        <div class="expt">
-
-                            <img src="assets/image/STEAM.JPG" class="expphoto">
-                            <img src="assets/image/STEAM2.JPG" class="expphoto">
-                        </div>
-                    </td>
-                </tr>
-            </table>
+                    <p>這是我學習完前端後第一次用HTML完成的網站,<br> 雖然過程遇到不少問題,但最終還是一一解決,
+                        <br> 完成這個專案也讓我對網頁製作更加有信心!
+                    </p>
+                </div>
+            </div>
         </div>
 
+    </div>
 </body>
 <script src="assets/js/skill.js" charset="utf-8">
 </script>

@@ -1,0 +1,43 @@
+#down {
+    clear: both;
+    border-top: black 3px double;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.work {
+    width: 48%;
+    border-radius: 20px;
+    border: gold 3px solid;
+    margin: 20px;
+    float: left;
+    margin-top: 0;
+}
+
+.worktext {
+    width: 90%;
+    border-radius: 20px;
+    border: gold 3px solid;
+    margin: 20px;
+    margin-top: 10px;
+    background-color: rgba(135, 206, 235, 0.5);
+    margin-right: 5%;
+    float: right;
+    font-family: 標楷體;
+    color: slateblue;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+.workp {
+    font-size: 21px;
+    color: blueviolet;
+    padding-top: 10px;
+}

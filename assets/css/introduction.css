@@ -1,5 +1,5 @@
 #introduction {
-    width: 38%;
+    width: 100%;
     background-color: skyblue;
     display: block;
     float: left;
@@ -14,6 +14,19 @@
     display: block;
     margin: auto;
     padding-top: 20px;
+}
+
+.pic {
+    overflow: hidden;
+}
+
+.pic img {
+    transform: scale(1, 1);
+    transition: all 0.5s ease-out;
+}
+
+.pic img:hover {
+    transform: scale(1.2, 1.2);
 }
 
 #name {

@@ -17,3 +17,18 @@ body {
 hr {
     width: 100%;
 }
+
+.eng {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#left {
+    width: 37.8%;
+    float: left;
+    border-right: solid 1px black;
+}
+
+#right {
+    width: 62%;
+    float: right;
+}
