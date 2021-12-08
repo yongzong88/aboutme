@@ -23,12 +23,25 @@ hr {
 }
 
 #left {
-    width: 37.8%;
+    width: 35.8%;
     float: left;
     border-right: solid 1px black;
 }
 
 #right {
-    width: 62%;
+    width: 64%;
     float: right;
+}
+
+#top {
+    position: fixed;
+    bottom: 0;
+    right: 1%;
+    width: 3%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#topphoto {
+    width: 100%;
 }
