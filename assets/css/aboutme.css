@@ -12,6 +12,7 @@ body {
     left: 50%;
     margin-left: -45%;
     border-radius: 20px;
+    padding: 3px;
 }
 
 hr {
@@ -23,9 +24,8 @@ hr {
 }
 
 #left {
-    width: 37.8%;
+    width: 38%;
     float: left;
-    border-right: solid 1px black;
 }
 
 #right {

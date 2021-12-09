@@ -1,16 +1,19 @@
 #experience {
-    width: 100%;
+    width: 99.7%;
     display: block;
     float: right;
     text-align: center;
+    background-color: rgb(255, 218, 185);
+    border-radius: 20px;
 }
 
 #exp {
     width: 100%;
+    margin-top: -20px;
 }
 
 .expt {
-    margin: 20px;
+    padding: 20px;
 }
 
 .exptd {
@@ -22,4 +25,8 @@
     padding: 0;
     margin: 0;
     border-radius: 5px;
+}
+
+.exppp {
+    margin-top: -25px;
 }

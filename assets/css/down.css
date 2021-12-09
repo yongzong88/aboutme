@@ -1,6 +1,5 @@
 #down {
     clear: both;
-    border-top: black 3px double;
     width: 100%;
     text-align: center;
     display: block;
@@ -16,14 +15,12 @@
 }
 
 .worktext {
-    width: 90%;
+    width: 99.6%;
     border-radius: 20px;
     border: gold 3px solid;
-    margin: 20px;
-    margin-top: 10px;
     background-color: rgba(135, 206, 235, 0.5);
-    margin-right: 5%;
     float: right;
+    margin-top: 3px;
     font-family: 標楷體;
     color: slateblue;
 }
